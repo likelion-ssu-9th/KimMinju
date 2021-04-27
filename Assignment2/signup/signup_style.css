@@ -1,0 +1,113 @@
+:root {
+  /* color */
+  --black-color: #292526;
+  --white-color: #fff;
+  --blue-color: #2eb1f9;
+  --border-color: #e8e8e8;
+  --background-color: #fafafa;
+  --gray_blue-color: #b9dffc;
+  --gray-color: #939199;
+
+  /* size */
+  --side-padding: 12px;
+
+  /* font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.signup_container {
+  width: 350px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white-color);
+  border: 2px solid var(--border-color);
+  border-radius: 3px;
+  align-items: center;
+  padding: 40px 30px;
+}
+
+.signup_container img {
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.signup_content {
+  width: 284px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.inputForm input {
+  height: 34px;
+  width: 284px;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 8px;
+  color: var(--background-color);
+}
+
+.joinLetter {
+  font-size: large;
+  color: var(--gray-color);
+  text-align: center;
+}
+
+.line {
+  color: var(--gray-color);
+  height: 2px;
+  margin: 12px 0;
+}
+
+.join_btn {
+  height: 34px;
+  font-size: var(--font-medium);
+  border: 0;
+  border-radius: 3px;
+  background-color: var(--gray_blue-color);
+  color: white;
+  padding: 4px 4px;
+  margin-top: 8px;
+}
+
+.loginInsta_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--white-color);
+  border: 2px solid var(--border-color);
+  border-radius: 3px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: var(--font-medium);
+  color: var(--black-color);
+  font-weight: bolder;
+}
+
+.loginInsta_container a {
+  text-decoration: none;
+  color: var(--blue-color);
+}
