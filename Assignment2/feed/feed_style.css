@@ -1,0 +1,83 @@
+:root {
+  /* color */
+  --black-color: #292526;
+  --white-color: #fff;
+  --blue-color: #2eb1f9;
+  --border-color: #e8e8e8;
+  --background-color: #fafafa;
+  --gray_blue-color: #b9dffc;
+
+  /* size */
+  --side-padding: 12px;
+
+  /* font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--border-color);
+}
+
+.cardView {
+  width: 400px;
+}
+
+.cardimage img {
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+}
+
+header {
+  background-color: var(--white-color);
+  padding: 12px;
+}
+
+.cardInfo {
+  margin-top: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoLeft,
+.infoRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoLeft,
+.infoRight img {
+  height: 20px;
+}
+
+.comment {
+  height: 50px;
+  background-color: var(--white-color);
+  font-size: var(--font-small);
+}
+
+.comment_form {
+  width: 400px;
+  background-color: var(--white-color);
+  margin-top: 2px;
+}
+
+.comment_form input {
+  font-size: var(--font-small);
+  border: none;
+  padding: 8px 4px;
+}
